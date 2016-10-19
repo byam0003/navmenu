@@ -31,7 +31,7 @@ h2{
     ogle serif font to this font stack */
     font-family: 'Bree serif', 'Droid serif', Palatino, serif; 
     padding: 1rem 2rem;
-    color: #BAD279;
+    color: #005219;
 }
 nav li{
     font-size: 2.618rem;
@@ -85,7 +85,7 @@ header{
         .menu-v a:active,
         .menu-h a:hover {
             color: #175236;
-            #background-color: #BAD279;
+            background-color: #BAD279;
             background-color: #A9D23A;
             display: block;
                 
