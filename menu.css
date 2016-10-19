@@ -13,7 +13,7 @@ html{
     font-size: 16px;
     line-height: 1.6;
     /* ADD the Google sans-serif font to this font stack */
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', arial, sans-serif;
 }
 html, body{
     background-color: #6B8525;
@@ -21,7 +21,7 @@ html, body{
 h1{
     font-size: 6.854rem;
     /* ADD the Google serif font to this font stack */
-    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; 
+    font-family: 'Bree serif', 'Droid serif', Palatino, serif; 
     padding: 1rem 2rem;
     color: #175236;
 }
@@ -29,16 +29,19 @@ h2{
     font-size: 4.23rem;
     /* ADD the Go
     ogle serif font to this font stack */
-    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-family: 'Bree serif', 'Droid serif', Palatino, serif; 
     padding: 1rem 2rem;
     color: #BAD279;
 }
 nav li{
     font-size: 2.618rem;
+    color: #6B8525;
+    background-color: #A9D23A;
 }
 p{
     font-size: 1.618rem;
     padding: 1rem 2rem;
+    color: #175236;
 }
 .wrapper{
     max-width: 1400px; 
@@ -54,8 +57,17 @@ header{
 }
 .menu-h{
     width: 100%;
+    padding:0 ;
+    margin: 0;
 }
     .menu-h li{
+        list-style-type: none;
+        width: 20%;
+        float: left;
+        text-align: center;
+        display: block;
+        border-right: 2px solid #175236;
+        overflow: hidden;
         /* style the list items to remove the bullets 
         and line up horizontally
         and take up 20% of the width of the ul */
@@ -63,11 +75,20 @@ header{
         .menu-h a,
         .menu-h a:link,
         .menu-h a:visited{
+            display: block;
+            width: 100%;
+            margin: 0;
+            text-decoration: none;
             /* style the anchors to fill the entire width of the li 
             make sure there is padding around your text */
         }
-        .menu-h a:hover,
-        .menu-h a:active{
+        .menu-h a:active,
+        .menu-h a:hover{
+            color: #175236;
+            #background-color: #BAD279;
+            background-color: #A9D23A;
+            display: block;
+            
             
         }
 .menu-v{
