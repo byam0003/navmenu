@@ -23,12 +23,15 @@ h1{
     /* ADD the Google serif font to this font stack */
     font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; 
     padding: 1rem 2rem;
+    color: #A9D23A;
 }
 h2{
     font-size: 4.23rem;
-    /* ADD the Google serif font to this font stack */
+    /* ADD the Go
+    ogle serif font to this font stack */
     font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     padding: 1rem 2rem;
+    color: #BAD279;
 }
 nav li{
     font-size: 2.618rem;
@@ -41,13 +44,13 @@ p{
     max-width: 1400px; 
     width: 80%;
     margin: 0 auto;
-    background-color: chartreuse;
-    color: rebeccapurple;
+    background-color: #BAD279;
+    color: #24523E;
 }
 header{
-    border-bottom: 0.8rem solid khaki;
-    background-color: cornflowerblue;
-    color: aliceblue;
+    border-bottom: 0.8rem solid #869948;
+    background-color: #A9D23A;
+    color:#BAD279;
 }
 .menu-h{
     width: 100%;
