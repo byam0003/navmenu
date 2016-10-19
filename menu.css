@@ -73,8 +73,13 @@ header{
     padding: 0;
     margin: 0;
     background-color: #A9D23A;
+    overflow: hidden;
 }
     .menu-v li{
+        list-style-type: none;
+        width: 100%;
+        display: 8px auto;
+        text-align: center;
         /* style the list items to remove the bullets 
         and line up vertically
         and take up 100% of the width of the ul */
@@ -82,11 +87,16 @@ header{
         .menu-v a,
         .menu-v a:link,
         .menu-v a:visited{
+            width: 100%;
+            text-decoration: none;
+            display: block;
+                
             /* style the anchors to fill the entire width of the li */
         }
-        .menu-v a:hover,
-        .menu-v a:active{
-            
+        .menu-h a:active,
+        .menu-v a:hover{
+            color: #6B8525;
+            font-weight: bold;
         }
 main{
     width:80%;
