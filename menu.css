@@ -82,14 +82,13 @@ header{
             /* style the anchors to fill the entire width of the li 
             make sure there is padding around your text */
         }
-        .menu-h a:active,
-        .menu-h a:hover{
+        .menu-v a:active,
+        .menu-h a:hover {
             color: #175236;
             #background-color: #BAD279;
             background-color: #A9D23A;
             display: block;
-            
-            
+                
         }
 .menu-v{
     width: 20%;
