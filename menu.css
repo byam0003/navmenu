@@ -123,6 +123,7 @@ header{
         .menu-v a:hover{
             color: #6B8525;
             font-weight: bold;
+            background-color: #2AFF00; 
         }
 main{
     width:80%;
