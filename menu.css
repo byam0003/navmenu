@@ -116,7 +116,7 @@ header{
             width: 100%;
             text-decoration: none;
             display: block;
-                
+            background-color: #CAFF00;                
             /* style the anchors to fill the entire width of the li */
         }
         .menu-h a:active,
